@@ -1,17 +1,6 @@
 # Real-Time Robotic Grasp Pipeline
 
-A real-time perception and grasp planning pipeline for robotic manipulation, built with ROS2, Isaac Sim, and deep learning. The system detects objects from a camera feed, estimates their 3D positions using monocular depth estimation, selects grasp poses using a learned RL policy, and executes grasp actions — all as a live ROS2 node graph.
-
----
-
-## Demo
-
-> Two-part demo: Isaac Sim physics simulation followed by the full perception pipeline running end-to-end.
-
-<!-- Replace with your actual video link -->
-[![Demo Video](https://img.shields.io/badge/Demo-Video-blue)](https://github.com/YOUR_USERNAME/real_time_grasp_pipeline)
-
----
+A real-time perception and grasp planning pipeline for robotic manipulation, built with ROS2, Isaac Sim, and deep learning. The system detects objects from a camera feed, estimates their 3D positions using monocular depth estimation, selects grasp poses using a learned RL policy, and executes grasp actions, all as a live ROS2 node graph.
 
 ## Architecture
 
@@ -108,7 +97,7 @@ real_time_grasp_pipeline/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/real_time_grasp_pipeline.git
+git clone https://github.com/somya2703/real_time_grasp_pipeline.git
 cd real_time_grasp_pipeline
 git submodule update --init --recursive   # pulls MiDaS
 ```
@@ -231,4 +220,16 @@ If TensorBoard is not installed, run `pip3 install tensorboard` inside the conta
 
 **Hardware**
 
-The pipeline was developed and tested on a laptop RTX 4050 with 6GB VRAM, which is below the 8GB minimum Isaac Sim recommends. This means Isaac Sim and the ROS2 pipeline cannot run simultaneously without risking a system crash. On a workstation GPU (RTX 3090, A100, etc.) both run concurrently without issue.
+##### The pipeline was developed and tested on a laptop RTX 4050 with 6GB VRAM, which is below the 8GB minimum Isaac Sim recommends. This means Isaac Sim and the ROS2 pipeline cannot run simultaneously without risking a system crash. On a workstation GPU (RTX 3090, A100, etc.) both run concurrently without issue.
+---
+
+## Demo
+
+> Two-part demo: Isaac Sim physics simulation followed by the full perception pipeline running end-to-end.
+
+<!-- Replace with your actual video link -->
+![Demo Video: Nodes](https://github.com/user-attachments/assets/c9db99ad-c46f-489f-9ecc-16a9b64f2246)
+![Demo Video: Sim](https://github.com/user-attachments/assets/8848ffb7-9c07-4682-99e5-54db237eb27e)
+
+
+---
