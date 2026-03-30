@@ -1,0 +1,12 @@
+grasp:
+  # RL policy
+  policy_path: /workspace/models/grasp_policy.zip
+
+  #geometry offsets
+  top_approach_offset: 0.10
+  side_approach_offset: 0.05
+  angled_approach_offset: 0.05
+
+  
+  execution_timeout_s: 5.0
+  simulate_only: true   # false for real robot

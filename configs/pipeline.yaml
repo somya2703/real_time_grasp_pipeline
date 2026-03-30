@@ -1,0 +1,12 @@
+pipeline:
+  # Topics
+  image_topic: /camera/image_raw
+  detections_topic: /detections
+  objects_3d_topic: /objects_3d
+  grasp_candidates_topic: /grasp_candidates
+
+  # in hz
+  publish_rate: 10
+
+  
+  test_image_path: /workspace/test_data/test.jpg

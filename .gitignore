@@ -1,0 +1,57 @@
+# Model weights — too large for git, download separately
+models/*.pt
+models/*.engine
+models/*.onnx
+models/*.zip
+models/*.pth
+MiDaS/weights/
+
+# ROS2 build artifacts
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Docker
+docker/*.log
+
+# Logs and outputs
+*.log
+logs/
+demo/demo_bag/
+demo/*.mp4
+demo/sim_output.log
+
+# Isaac Sim cache
+kit/logs/
+/root/.cache/
+
+# Test outputs
+test_data/output.jpg
+
+# Benchmark outputs
+benchmark/latency_log.csv
+benchmark/latency_distribution.png
+
+# Profiling
+profiling/*.json
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

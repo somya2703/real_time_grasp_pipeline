@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+
+  grasp_pipeline:
+
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+
+    container_name: grasp_pipeline
+
+    runtime: nvidia
+
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=all
+      - ACCEPT_EULA=Y
+
+    volumes:
+      - ../:/workspace
+
+    network_mode: host
+
+    stdin_open: true
+    tty: true
