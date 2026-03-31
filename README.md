@@ -213,7 +213,8 @@ TensorBoard tracks the following metrics:
 | `eval/` | `mean_reward` | Reward on held-out eval episodes every 5k steps |
 
 If TensorBoard is not installed, run `pip3 install tensorboard` inside the container first.
-
+---
+[Detailed TensorBoard Analysis](/Tensor%Board%Analysis/README.md)
 ---
 
 ## Known Bottlenecks
