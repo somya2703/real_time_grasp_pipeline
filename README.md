@@ -214,7 +214,7 @@ TensorBoard tracks the following metrics:
 
 If TensorBoard is not installed, run `pip3 install tensorboard` inside the container first.
 ---
-[Detailed TensorBoard Analysis](/Tensor%Board%Analysis/README.md)
+[Detailed TensorBoard Analysis](/Tensor%20Board%20Analysis/README.md)
 ---
 
 ## Known Bottlenecks
