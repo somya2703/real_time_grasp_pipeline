@@ -224,12 +224,6 @@ If TensorBoard is not installed, run `pip3 install tensorboard` inside the conta
 ##### The pipeline was developed and tested on a laptop RTX 4050 with 6GB VRAM, which is below the 8GB minimum Isaac Sim recommends. This means Isaac Sim and the ROS2 pipeline cannot run simultaneously without risking a system crash. On a workstation GPU (RTX 3090, A100, etc.) both run concurrently without issue.
 ---
 
-## Demo
-
-> Two-part demo: Isaac Sim physics simulation followed by the full perception pipeline running end-to-end.
-
-<!-- Replace with your actual video link -->
-![Demo Video: Nodes](https://github.com/user-attachments/assets/c9db99ad-c46f-489f-9ecc-16a9b64f2246)
 ![Demo Video: Sim](https://github.com/user-attachments/assets/8848ffb7-9c07-4682-99e5-54db237eb27e)
 
 
