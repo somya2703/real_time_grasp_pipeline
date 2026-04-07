@@ -212,9 +212,11 @@ TensorBoard tracks the following metrics:
 | `train/` | `explained_variance` | How well value function predicts returns |
 | `eval/` | `mean_reward` | Reward on held-out eval episodes every 5k steps |
 
-If TensorBoard is not installed, run `pip3 install tensorboard` inside the container first.
 ---
-[Detailed TensorBoard Analysis](/Tensor%20Board%20Analysis/README.md)
+
+#### If TensorBoard is not installed, run `pip3 install tensorboard` inside the container first.
+---
+#### [Detailed TensorBoard Analysis](/Tensor%20Board%20Analysis/README.md)
 ---
 
 ## Known Bottlenecks
@@ -224,7 +226,6 @@ If TensorBoard is not installed, run `pip3 install tensorboard` inside the conta
 ##### The pipeline was developed and tested on a laptop RTX 4050 with 6GB VRAM, which is below the 8GB minimum Isaac Sim recommends. This means Isaac Sim and the ROS2 pipeline cannot run simultaneously without risking a system crash. On a workstation GPU (RTX 3090, A100, etc.) both run concurrently without issue.
 ---
 
-![Demo Video: Sim](https://github.com/user-attachments/assets/8848ffb7-9c07-4682-99e5-54db237eb27e)
 
 
----
+
